@@ -40,13 +40,7 @@
               "scriptContent": "tsc -p tsconfig.json",
               "runCommand": "npm run build"
             },
-            "dependsOn": [
-              {
-                "target": "build",
-                "projects": "online-store-api",
-                "params": "ignore"
-              }
-            ],
+            "cache": true,
             "options": {
               "script": "build"
             },
@@ -55,12 +49,19 @@
           },
           "serve": {
             "executor": "nx:run-script",
-            "options": {
-              "script": "serve"
-            },
             "metadata": {
               "scriptContent": "node .",
               "runCommand": "npm run serve"
+            },
+            "dependsOn": [
+              {
+                "target": "build",
+                "projects": "online-store-api",
+                "params": "ignore"
+              }
+            ],
+            "options": {
+              "script": "serve"
             },
             "configurations": {},
             "parallelism": true
@@ -109,5 +110,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1756324740358
+  "computedAt": 1756325731390
 }

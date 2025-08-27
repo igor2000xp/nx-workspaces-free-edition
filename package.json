@@ -19,6 +19,9 @@
   "nx": {
     "targets": {
       "build": {
+        "cache": true
+      },
+      "serve": {
         "dependsOn": [
           {
             "target": "build",

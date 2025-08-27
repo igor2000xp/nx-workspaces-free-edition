@@ -88,7 +88,7 @@
       "package.json",
       "nx/core/package-json"
     ],
-    "targets.build.dependsOn": [
+    "targets.build.cache": [
       "package.json",
       "nx/core/package-json"
     ],
@@ -116,11 +116,15 @@
       "package.json",
       "nx/core/package-json"
     ],
-    "targets.serve.options": [
+    "targets.serve.metadata": [
       "package.json",
       "nx/core/package-json"
     ],
-    "targets.serve.metadata": [
+    "targets.serve.dependsOn": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.options": [
       "package.json",
       "nx/core/package-json"
     ],

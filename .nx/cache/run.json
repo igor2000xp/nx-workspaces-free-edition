@@ -1,21 +1,21 @@
 {
   "run": {
-    "command": "nx run serve",
-    "startTime": "2025-08-27T19:52:52.701Z",
-    "endTime": "2025-08-27T19:52:58.233Z",
+    "command": "nx run build",
+    "startTime": "2025-08-27T20:15:35.012Z",
+    "endTime": "2025-08-27T20:15:35.073Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "online-store-api:serve",
-      "target": "serve",
+      "taskId": "online-store-api:build",
+      "target": "build",
       "projectName": "online-store-api",
-      "hash": "10765111480803772874",
-      "startTime": "2025-08-27T19:52:52.747Z",
-      "endTime": "2025-08-27T19:52:58.231Z",
+      "hash": "11005295037285354514",
+      "startTime": "2025-08-27T20:15:35.058Z",
+      "endTime": "2025-08-27T20:15:35.066Z",
       "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
+      "cacheStatus": "local-cache-hit",
+      "status": 0
     }
   ]
 }
