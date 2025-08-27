@@ -6,7 +6,7 @@
   "fileMap": {
     "nonProjectFiles": [],
     "projectFileMap": {
-      "nx-playground": [
+      "online-store-api": [
         {
           "file": ".cursor/rules/isolation_rules/Core/command-execution.mdc",
           "hash": "3452808354835092642"
@@ -501,7 +501,7 @@
         },
         {
           "file": "package.json",
-          "hash": "15928396052493474917"
+          "hash": "4479144255133032925"
         },
         {
           "file": "src/app/app.ts",

@@ -16,7 +16,14 @@
     "format": "prettier . --write",
     "postinstall": "echo \"Let's go crafting! 🚀✨\""
   },
-  "nx": {},
+  "nx": {
+    "name": "online-store-api",
+    "metadata": {
+      "description": "A demo REST API built with Express.js for an online store"
+    },
+    "projectType": "application",
+    "sourceRoot": "src"
+  },
   "dependencies": {
     "express": "^4.21.2"
   },

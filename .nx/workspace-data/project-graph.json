@@ -1,11 +1,13 @@
 {
   "nodes": {
-    "nx-playground": {
-      "name": "nx-playground",
-      "type": "lib",
+    "online-store-api": {
+      "name": "online-store-api",
+      "type": "app",
       "data": {
         "root": ".",
-        "name": "nx-playground",
+        "name": "online-store-api",
+        "projectType": "application",
+        "sourceRoot": "src",
         "tags": [
           "npm:public"
         ],
@@ -116,9 +118,9 @@
   },
   "externalNodes": {},
   "dependencies": {
-    "nx-playground": []
+    "online-store-api": []
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1756319417514
+  "computedAt": 1756321363365
 }

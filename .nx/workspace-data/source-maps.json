@@ -8,6 +8,14 @@
       "package.json",
       "nx/core/package-json"
     ],
+    "projectType": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "sourceRoot": [
+      "package.json",
+      "nx/core/package-json"
+    ],
     "tags": [
       "package.json",
       "nx/core/package-json"
