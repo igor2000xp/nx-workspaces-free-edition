@@ -8,6 +8,12 @@
         "name": "online-store-api",
         "projectType": "application",
         "sourceRoot": "src",
+        "includedScripts": [
+          "build",
+          "serve",
+          "test",
+          "lint"
+        ],
         "tags": [
           "npm:public"
         ],
@@ -17,9 +23,7 @@
               "build",
               "serve",
               "test",
-              "lint",
-              "format",
-              "postinstall"
+              "lint"
             ]
           },
           "description": "Nx Workspaces Playground for the course by Decoded Frontend",
@@ -78,30 +82,6 @@
             "configurations": {},
             "parallelism": true
           },
-          "format": {
-            "executor": "nx:run-script",
-            "options": {
-              "script": "format"
-            },
-            "metadata": {
-              "scriptContent": "prettier . --write",
-              "runCommand": "npm run format"
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "postinstall": {
-            "executor": "nx:run-script",
-            "options": {
-              "script": "postinstall"
-            },
-            "metadata": {
-              "scriptContent": "echo \"Let's go crafting! 🚀✨\"",
-              "runCommand": "npm run postinstall"
-            },
-            "configurations": {},
-            "parallelism": true
-          },
           "nx-release-publish": {
             "executor": "@nx/js:release-publish",
             "dependsOn": [
@@ -122,5 +102,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1756321363365
+  "computedAt": 1756322683117
 }

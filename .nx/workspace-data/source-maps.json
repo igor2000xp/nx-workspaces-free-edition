@@ -16,6 +16,10 @@
       "package.json",
       "nx/core/package-json"
     ],
+    "includedScripts": [
+      "package.json",
+      "nx/core/package-json"
+    ],
     "tags": [
       "package.json",
       "nx/core/package-json"
@@ -45,14 +49,6 @@
       "nx/core/package-json"
     ],
     "metadata.targetGroups.NPM Scripts.3": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups.NPM Scripts.4": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups.NPM Scripts.5": [
       "package.json",
       "nx/core/package-json"
     ],
@@ -189,62 +185,6 @@
       "nx/core/package-json"
     ],
     "targets.lint.metadata.runCommand": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "targets.format": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "targets.format.executor": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "targets.format.options": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "targets.format.metadata": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "targets.format.options.script": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "targets.format.metadata.scriptContent": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "targets.format.metadata.runCommand": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "targets.postinstall": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "targets.postinstall.executor": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "targets.postinstall.options": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "targets.postinstall.metadata": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "targets.postinstall.options.script": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "targets.postinstall.metadata.scriptContent": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "targets.postinstall.metadata.runCommand": [
       "package.json",
       "nx/core/package-json"
     ],
