@@ -17,6 +17,17 @@
     "postinstall": "echo \"Let's go crafting! 🚀✨\""
   },
   "nx": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          {
+            "target": "build",
+            "projects": "online-store-api",
+            "params": "ignore"
+          }
+        ]
+      }
+    },
     "name": "online-store-api",
     "metadata": {
       "description": "A demo REST API built with Express.js for an online store"

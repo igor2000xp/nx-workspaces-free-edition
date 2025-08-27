@@ -84,11 +84,15 @@
       "package.json",
       "nx/core/package-json"
     ],
-    "targets.build.options": [
+    "targets.build.metadata": [
       "package.json",
       "nx/core/package-json"
     ],
-    "targets.build.metadata": [
+    "targets.build.dependsOn": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
       "package.json",
       "nx/core/package-json"
     ],
