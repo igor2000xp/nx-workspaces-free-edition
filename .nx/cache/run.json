@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run build",
+    "startTime": "2025-08-27T18:01:35.471Z",
+    "endTime": "2025-08-27T18:01:37.090Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "nx-playground:build",
+      "target": "build",
+      "projectName": "nx-playground",
+      "hash": "6755305010512866757",
+      "startTime": "2025-08-27T18:01:35.611Z",
+      "endTime": "2025-08-27T18:01:37.082Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
