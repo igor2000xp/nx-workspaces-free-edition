@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run nx-playground:lint",
+    "startTime": "2025-08-27T18:44:56.100Z",
+    "endTime": "2025-08-27T18:44:57.954Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "nx-playground:lint",
+      "target": "lint",
+      "projectName": "nx-playground",
+      "hash": "14576960454747868458",
+      "startTime": "2025-08-27T18:44:56.229Z",
+      "endTime": "2025-08-27T18:44:57.952Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
