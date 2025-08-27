@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run serve",
+    "startTime": "2025-08-27T19:52:52.701Z",
+    "endTime": "2025-08-27T19:52:58.233Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "online-store-api:serve",
+      "target": "serve",
+      "projectName": "online-store-api",
+      "hash": "10765111480803772874",
+      "startTime": "2025-08-27T19:52:52.747Z",
+      "endTime": "2025-08-27T19:52:58.231Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

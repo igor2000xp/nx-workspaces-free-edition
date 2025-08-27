@@ -1,0 +1,529 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.2",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "online-store-api": [
+        {
+          "file": ".cursor/rules/isolation_rules/Core/command-execution.mdc",
+          "hash": "3452808354835092642"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Core/complexity-decision-tree.mdc",
+          "hash": "7659075279076765214"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Core/creative-phase-enforcement.mdc",
+          "hash": "12061744092818586895"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Core/creative-phase-metrics.mdc",
+          "hash": "2177546540198147564"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Core/file-verification.mdc",
+          "hash": "12879834572723126504"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Core/hierarchical-rule-loading.mdc",
+          "hash": "3970528302936599913"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Core/memory-bank-paths.mdc",
+          "hash": "14880839292629417524"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Core/mode-transition-optimization.mdc",
+          "hash": "2818689726089673035"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Core/optimization-integration.mdc",
+          "hash": "518775083212910114"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Core/platform-awareness.mdc",
+          "hash": "3183031942463188935"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level1/optimized-workflow-level1.mdc",
+          "hash": "16747286395332512945"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level1/quick-documentation.mdc",
+          "hash": "635130825151742631"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level1/workflow-level1.mdc",
+          "hash": "17713841990359268459"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level2/archive-basic.mdc",
+          "hash": "124478791079896792"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level2/reflection-basic.mdc",
+          "hash": "3068492946354814522"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level2/task-tracking-basic.mdc",
+          "hash": "18382890904525298337"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level2/workflow-level2.mdc",
+          "hash": "2148650662951010392"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level3/archive-intermediate.mdc",
+          "hash": "8427033048666658443"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level3/implementation-intermediate.mdc",
+          "hash": "14920401861783234251"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level3/planning-comprehensive.mdc",
+          "hash": "5044706428051503950"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level3/reflection-intermediate.mdc",
+          "hash": "106286488418512131"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level3/task-tracking-intermediate.mdc",
+          "hash": "3626713082927820425"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level3/workflow-level3.mdc",
+          "hash": "8711904157518299323"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level4/architectural-planning.mdc",
+          "hash": "1150581904671010759"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level4/archive-comprehensive.mdc",
+          "hash": "15719537537187762865"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level4/phased-implementation.mdc",
+          "hash": "13909578674131850082"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level4/reflection-comprehensive.mdc",
+          "hash": "31174729901031600"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level4/task-tracking-advanced.mdc",
+          "hash": "1418192285979327804"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Level4/workflow-level4.mdc",
+          "hash": "5855982116843748292"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Phases/CreativePhase/creative-phase-architecture.mdc",
+          "hash": "2750491565384974256"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Phases/CreativePhase/creative-phase-uiux.mdc",
+          "hash": "6722828568952768952"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/Phases/CreativePhase/optimized-creative-template.mdc",
+          "hash": "11215629407736753393"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/main-optimized.mdc",
+          "hash": "8288120298718158579"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/main.mdc",
+          "hash": "9953019929507407638"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/archive-mode-map.mdc",
+          "hash": "2350778100186635684"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/creative-mode-map.mdc",
+          "hash": "11082043795077541028"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/implement-mode-map.mdc",
+          "hash": "2054187172999628886"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/plan-mode-map.mdc",
+          "hash": "6701737528638196793"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/qa-mode-map.mdc",
+          "hash": "3385139010963253818"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/reflect-mode-map.mdc",
+          "hash": "1702897590004488527"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc",
+          "hash": "1515257670519789904"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-complexity-determination.mdc",
+          "hash": "15017318792921494612"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-file-verification.mdc",
+          "hash": "2923240726369953390"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
+          "hash": "2722008768804813091"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-platform-detection.mdc",
+          "hash": "12135775631303495770"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-qa-checks/build-test.mdc",
+          "hash": "14556249252072375024"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-qa-checks/config-check.mdc",
+          "hash": "4501095181255599196"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-qa-checks/dependency-check.mdc",
+          "hash": "3375401552465418603"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-qa-checks/environment-check.mdc",
+          "hash": "8978220288275127208"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-qa-checks/file-verification.mdc",
+          "hash": "18164486227812464591"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-qa-main.mdc",
+          "hash": "14468024040758409527"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-qa-utils/common-fixes.mdc",
+          "hash": "6721973524912582281"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-qa-utils/mode-transitions.mdc",
+          "hash": "18363045821758488247"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-qa-utils/reports.mdc",
+          "hash": "16934881150729443663"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-qa-utils/rule-calling-guide.mdc",
+          "hash": "17039353854924165922"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-qa-utils/rule-calling-help.mdc",
+          "hash": "13206388370485263663"
+        },
+        {
+          "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-qa-validation.md.old",
+          "hash": "9414857850383338563"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "4613128853394968474"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "16009895256622806443"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "16267754514737964994"
+        },
+        {
+          "file": "GEMINI.md",
+          "hash": "575179390542657066"
+        },
+        {
+          "file": "MEMORY_BANK_OPTIMIZATIONS.md",
+          "hash": "249000967361275177"
+        },
+        {
+          "file": "README.md",
+          "hash": "1686029268257165630"
+        },
+        {
+          "file": "RELEASE_NOTES.md",
+          "hash": "1848687230194218436"
+        },
+        {
+          "file": "assets/add_custom_mode.png",
+          "hash": "12770123974038953348"
+        },
+        {
+          "file": "assets/chat_archive.png",
+          "hash": "18385848777431032493"
+        },
+        {
+          "file": "assets/chat_creative.png",
+          "hash": "16664923677225420310"
+        },
+        {
+          "file": "assets/chat_implement.png",
+          "hash": "6858590514511525529"
+        },
+        {
+          "file": "assets/chat_plan.png",
+          "hash": "18153389414253101172"
+        },
+        {
+          "file": "assets/chat_reflect.png",
+          "hash": "3081951903762696136"
+        },
+        {
+          "file": "assets/chat_van.png",
+          "hash": "5016989283490216391"
+        },
+        {
+          "file": "assets/creative_mode_1.png",
+          "hash": "15965309700806294006"
+        },
+        {
+          "file": "assets/creative_mode_2.png",
+          "hash": "5589758220979347564"
+        },
+        {
+          "file": "assets/custom_mode_setup_1.png",
+          "hash": "15542696213071939005"
+        },
+        {
+          "file": "assets/custom_mode_setup_2.png",
+          "hash": "4082195759001679938"
+        },
+        {
+          "file": "assets/implement_mode_1.png",
+          "hash": "13000939858863678563"
+        },
+        {
+          "file": "assets/implement_mode_2.png",
+          "hash": "11167640756609496498"
+        },
+        {
+          "file": "assets/open_custom_modes.png",
+          "hash": "6212413663229220307"
+        },
+        {
+          "file": "assets/plan_mode_1.png",
+          "hash": "17836674753725797207"
+        },
+        {
+          "file": "assets/plan_mode_2.png",
+          "hash": "11323443717074882131"
+        },
+        {
+          "file": "assets/reflect_mode_1.png",
+          "hash": "17220484048025019992"
+        },
+        {
+          "file": "assets/reflect_mode_2.png",
+          "hash": "17635258679498447427"
+        },
+        {
+          "file": "assets/van_mode_1.png",
+          "hash": "10279583692592704606"
+        },
+        {
+          "file": "assets/van_mode_2.png",
+          "hash": "12526816804039045089"
+        },
+        {
+          "file": "creative_mode_think_tool.md",
+          "hash": "3965130861656892773"
+        },
+        {
+          "file": "custom_modes/creative_instructions.md",
+          "hash": "12651540037956302396"
+        },
+        {
+          "file": "custom_modes/implement_instructions.md",
+          "hash": "9284670827585674502"
+        },
+        {
+          "file": "custom_modes/mode_switching_analysis.md",
+          "hash": "4240016275261073463"
+        },
+        {
+          "file": "custom_modes/plan_instructions.md",
+          "hash": "8745110833725295267"
+        },
+        {
+          "file": "custom_modes/reflect_archive_instructions.md",
+          "hash": "6239484275947558932"
+        },
+        {
+          "file": "custom_modes/van_instructions.md",
+          "hash": "15529375197604612628"
+        },
+        {
+          "file": "dist/app/app.d.ts",
+          "hash": "18122269732137894113"
+        },
+        {
+          "file": "dist/app/app.js",
+          "hash": "11388033915737491981"
+        },
+        {
+          "file": "dist/app/controllers/get-courses.d.ts",
+          "hash": "11431387917888624509"
+        },
+        {
+          "file": "dist/app/controllers/get-courses.js",
+          "hash": "605108339647863680"
+        },
+        {
+          "file": "dist/server.d.ts",
+          "hash": "4595979742548113990"
+        },
+        {
+          "file": "dist/server.js",
+          "hash": "11770720535699462663"
+        },
+        {
+          "file": "eslint.config.cjs",
+          "hash": "5554955270785354985"
+        },
+        {
+          "file": "jest.config.ts",
+          "hash": "3651345844345012297"
+        },
+        {
+          "file": "memory-bank/activeContext.md",
+          "hash": "8846326363285174141"
+        },
+        {
+          "file": "memory-bank/progress.md",
+          "hash": "5509294025421355895"
+        },
+        {
+          "file": "memory-bank/projectbrief.md",
+          "hash": "17705752403945105891"
+        },
+        {
+          "file": "memory-bank/techContext.md",
+          "hash": "8281335914702062152"
+        },
+        {
+          "file": "memory_bank_upgrade_guide.md",
+          "hash": "17641960521596241482"
+        },
+        {
+          "file": "nx.json",
+          "hash": "15753941481085060538"
+        },
+        {
+          "file": "optimization-journey/00-introduction.md",
+          "hash": "17018323730444530504"
+        },
+        {
+          "file": "optimization-journey/01-efficiency-and-clarity.md",
+          "hash": "18223920684807250882"
+        },
+        {
+          "file": "optimization-journey/02-system-self-assessment.md",
+          "hash": "5132788936748318980"
+        },
+        {
+          "file": "optimization-journey/03-redundancy-elimination.md",
+          "hash": "9333126608710616329"
+        },
+        {
+          "file": "optimization-journey/04-single-source-of-truth.md",
+          "hash": "15245114795729028634"
+        },
+        {
+          "file": "optimization-journey/05-adaptive-complexity-model.md",
+          "hash": "6148019285884257556"
+        },
+        {
+          "file": "optimization-journey/06-self-assessment-recommendations.md",
+          "hash": "152243267665317934"
+        },
+        {
+          "file": "optimization-journey/07-structured-creative-thinking.md",
+          "hash": "14692920123803199462"
+        },
+        {
+          "file": "optimization-journey/08-creative-phase-enforcement.md",
+          "hash": "16332995358012004488"
+        },
+        {
+          "file": "optimization-journey/09-context-optimization.md",
+          "hash": "17037749248384144113"
+        },
+        {
+          "file": "optimization-journey/10-current-system-state.md",
+          "hash": "7042233682075191420"
+        },
+        {
+          "file": "optimization-journey/11-key-lessons.md",
+          "hash": "15885297330331066573"
+        },
+        {
+          "file": "optimization-journey/11-methodological-integration.md",
+          "hash": "13393214912461004514"
+        },
+        {
+          "file": "optimization-journey/12-future-directions.md",
+          "hash": "12177147607428231153"
+        },
+        {
+          "file": "optimization-journey/12-key-lessons.md",
+          "hash": "5504884261867305077"
+        },
+        {
+          "file": "optimization-journey/13-future-directions.md",
+          "hash": "5175951160263073512"
+        },
+        {
+          "file": "optimization-journey/13-methodological-integration.md",
+          "hash": "13393214912461004514"
+        },
+        {
+          "file": "optimization-journey/README.md",
+          "hash": "14328619818281488534"
+        },
+        {
+          "file": "package.json",
+          "hash": "13694290460827062750"
+        },
+        {
+          "file": "src/app/app.ts",
+          "hash": "2399807896773041404"
+        },
+        {
+          "file": "src/app/controllers/get-courses.spec.ts",
+          "hash": "101383732894470021"
+        },
+        {
+          "file": "src/app/controllers/get-courses.ts",
+          "hash": "4387635936937307486"
+        },
+        {
+          "file": "src/server.ts",
+          "hash": "3153829234298381845"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "18205711615716099582"
+        }
+      ]
+    }
+  }
+}

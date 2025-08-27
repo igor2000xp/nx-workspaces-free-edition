@@ -1,0 +1,113 @@
+{
+  "nodes": {
+    "online-store-api": {
+      "name": "online-store-api",
+      "type": "app",
+      "data": {
+        "root": ".",
+        "name": "online-store-api",
+        "projectType": "application",
+        "sourceRoot": "src",
+        "includedScripts": [
+          "build",
+          "serve",
+          "test",
+          "lint"
+        ],
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "build",
+              "serve",
+              "test",
+              "lint"
+            ]
+          },
+          "description": "Nx Workspaces Playground for the course by Decoded Frontend",
+          "js": {
+            "packageName": "nx-playground",
+            "packageMain": "dist/server.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "tsc -p tsconfig.json",
+              "runCommand": "npm run build"
+            },
+            "dependsOn": [
+              {
+                "target": "build",
+                "projects": "online-store-api",
+                "params": "ignore"
+              }
+            ],
+            "options": {
+              "script": "build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "serve"
+            },
+            "metadata": {
+              "scriptContent": "node .",
+              "runCommand": "npm run serve"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test"
+            },
+            "metadata": {
+              "scriptContent": "jest --coverage --passWithNoTests",
+              "runCommand": "npm run test"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "lint"
+            },
+            "metadata": {
+              "scriptContent": "eslint .",
+              "runCommand": "npm run lint"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    }
+  },
+  "externalNodes": {},
+  "dependencies": {
+    "online-store-api": []
+  },
+  "version": "6.0",
+  "errors": [],
+  "computedAt": 1756324740358
+}
